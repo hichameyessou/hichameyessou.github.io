@@ -1,0 +1,35 @@
+baseURL = "hichameyessou.github.io"
+languageCode = 'en-us'
+title = 'Hichame Yessou'
+theme = "hermit"
+googleAnalytics = "UA-112221222-1"
+enableEmoji = true 
+disableKinds = ["RSS"]
+
+[author]
+  name = "Hichame Yessou"
+
+[params]
+homeSubtitle = "Data Scientist, based in Berlin"
+[[params.social]]
+    name = "twitter"
+    url = "https://twitter.com/hichame_yessou"
+[[params.social]]
+    name = "github"
+    url = "https://github.com/hichameyessou"
+[[params.social]]
+    name = "linkedin"
+    url = "https://www.linkedin.com/in/hichame-yessou/"
+[[params.social]]
+    name = "stackoverflow"
+    url = "https://stackoverflow.com/users/3674176/hichame-yessou"
+[[params.social]]
+    name = "email"
+    url = "mailto:hichame.yessou at gmail.com"
+
+
+[menu]
+  [[menu.main]]
+    name = "About"
+    url = "about/"
+    weight = 20
